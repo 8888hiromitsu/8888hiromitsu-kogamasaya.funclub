@@ -39,21 +39,7 @@ h1, h2, h3 {
     color: #444;
 }
 
-.about-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.about-text {
-    flex: 2;
-}
-
-.about-image {
-    flex: 1;
-}
-
-.side-image {
+.main-image {
     width: 100%;
     height: auto;
     display: block;
@@ -73,14 +59,14 @@ h1, h2, h3 {
 
 .gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
-    justify-content: center;
 }
 
 .gallery img {
-    flex: 1 1 calc(20% - 20px);
-    max-width: calc(20% - 20px);
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
